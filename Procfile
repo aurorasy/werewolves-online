@@ -1,0 +1,1 @@
+web:./licode/scripts/initLicode.sh

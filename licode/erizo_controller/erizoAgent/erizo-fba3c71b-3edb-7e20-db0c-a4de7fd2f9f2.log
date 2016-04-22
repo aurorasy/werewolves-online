@@ -1,0 +1,2347 @@
+2016-04-12 12:03:29.958  - INFO: AMQPER - Exchange rpcExchange is open
+2016-04-12 12:03:29.962  - INFO: AMQPER - Exchange broadcastExchange is open
+2016-04-12 12:03:29.968  - INFO: AMQPER - ClientQueue amq.gen-VZOJWn2umUBS7nCwM_G2lg is open
+2016-04-12 12:03:29.972  - INFO: ErizoJS - ID: ErizoJS_fba3c71b-3edb-7e20-db0c-a4de7fd2f9f2
+2016-04-12 12:03:29.980  - INFO: AMQPER - Queue ErizoJS_fba3c71b-3edb-7e20-db0c-a4de7fd2f9f2 is open
+2016-04-12 12:03:29.995  - INFO: ErizoJS - ErizoJS started
+2016-04-12 12:04:35.349  - INFO: ErizoJSController - Adding publisher peer_id  40491246618330480 minVideoBW 0 createOffer false
+2016-04-12 12:04:35,360  - DEBUG: OneToManyProcessor - OneToManyProcessor constructor
+2016-04-12 12:04:35,364  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:35.365  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:35.367  - INFO: ErizoJSController - webrtc Addon status  101  id pub 40491246618330480 id_sub undefined
+2016-04-12 12:04:35.717  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 9133822034526147021 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 80:83:65:6F:5F:8D:20:FE:8F:1F:B8:A5:98:71:35:5A:9D:00:4A:B4:41:3D:9B:53:33:10:93:37:49:E0:6E:12\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:d5139c7b129963317c5c952886548326\r\na=ice-ufrag:159bbc84\r\na=mid:sdparta_0\r\na=msid:{d1ecc85d-a606-4718-98c1-a732d3fd5cef} {32968d4c-adff-4622-8ded-bb12da9ea422}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\na=ssrc:507465996 cname:{636e5a1c-d0a4-434b-bb2c-d0e26de783f8}\r\nm=video 9 RTP/SAVPF 120 126 97\r\nb=AS:300\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:d5139c7b129963317c5c952886548326\r\na=ice-ufrag:159bbc84\r\na=mid:sdparta_1\r\na=msid:{d1ecc85d-a606-4718-98c1-a732d3fd5cef} {65291d56-61f7-4e8b-9831-e463bb30e8d0}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\na=ssrc:2417672097 cname:{636e5a1c-d0a4-434b-bb2c-d0e26de783f8}\r\n' }
+2016-04-12 12:04:35,720  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 9133822034526147021 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 80:83:65:6F:5F:8D:20:FE:8F:1F:B8:A5:98:71:35:5A:9D:00:4A:B4:41:3D:9B:53:33:10:93:37:49:E0:6E:12
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:d5139c7b129963317c5c952886548326
+a=ice-ufrag:159bbc84
+a=mid:sdparta_0
+a=msid:{d1ecc85d-a606-4718-98c1-a732d3fd5cef} {32968d4c-adff-4622-8ded-bb12da9ea422}
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+a=ssrc:507465996 cname:{636e5a1c-d0a4-434b-bb2c-d0e26de783f8}
+m=video 9 RTP/SAVPF 120 126 97
+b=AS:300
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:d5139c7b129963317c5c952886548326
+a=ice-ufrag:159bbc84
+a=mid:sdparta_1
+a=msid:{d1ecc85d-a606-4718-98c1-a732d3fd5cef} {65291d56-61f7-4e8b-9831-e463bb30e8d0}
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+a=ssrc:2417672097 cname:{636e5a1c-d0a4-434b-bb2c-d0e26de783f8}
+
+2016-04-12 12:04:35,721  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:35,721  - DEBUG: WebRtcConnection - Video 1 videossrc 2417672097 Audio 1 audio ssrc 507465996 Bundle 1
+2016-04-12 12:04:35,721  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 55543
+2016-04-12 12:04:35,721  - DEBUG: WebRtcConnection - Creating videoTransport with creds 159bbc84, d5139c7b129963317c5c952886548326
+2016-04-12 12:04:35,721  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:35,793  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:35,800  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:35,800  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:35,800  - DEBUG: NiceConnection - Setting remote credentials 159bbc84, d5139c7b129963317c5c952886548326
+2016-04-12 12:04:35,800  - DEBUG: NiceConnection - Gathering candidates 0x15b86c0
+2016-04-12 12:04:35,803  - DEBUG: WebRtcConnection - Setting remote bandwidth 300
+2016-04-12 12:04:35,805  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:35,805  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:35,805  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:35,805  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:35,805  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:35,806  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 59475 typ host generation 0
+2016-04-12 12:04:35,806  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:35,806  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 51479 typ host generation 0
+2016-04-12 12:04:35,806  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:35,806  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:35,806  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:35,806  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:35,807  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:35,807  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:35,807  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:35,807  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x15b86c0
+2016-04-12 12:04:35,807  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:35,807  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:35,807  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:35,807  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:35,807  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials j+SH, yBO072h7uHCn0i8MgYqicd
+2016-04-12 12:04:35.808  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS SOOrt6xY2k
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 51479 typ host generation 0
+a=ice-ufrag:j+SH
+a=ice-pwd:yBO072h7uHCn0i8MgYqicd
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:44444 cname:o/i14u9pJrxRKAsu
+a=ssrc:44444 msid:SOOrt6xY2k a0
+a=ssrc:44444 mslabel:SOOrt6xY2k
+a=ssrc:44444 label:SOOrt6xY2ka0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 51479 typ host generation 0
+a=ice-ufrag:j+SH
+a=ice-pwd:yBO072h7uHCn0i8MgYqicd
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:55543 cname:o/i14u9pJrxRKAsu
+a=ssrc:55543 msid:SOOrt6xY2k v0
+a=ssrc:55543 mslabel:SOOrt6xY2k
+a=ssrc:55543 label:SOOrt6xY2kv0
+ id pub 40491246618330480 id_sub undefined
+2016-04-12 12:04:35.808  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS SOOrt6xY2k
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 51479 typ host generation 0
+a=ice-ufrag:j+SH
+a=ice-pwd:yBO072h7uHCn0i8MgYqicd
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:44444 cname:o/i14u9pJrxRKAsu
+a=ssrc:44444 msid:SOOrt6xY2k a0
+a=ssrc:44444 mslabel:SOOrt6xY2k
+a=ssrc:44444 label:SOOrt6xY2ka0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 51479 typ host generation 0
+a=ice-ufrag:j+SH
+a=ice-pwd:yBO072h7uHCn0i8MgYqicd
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:55543 cname:o/i14u9pJrxRKAsu
+a=ssrc:55543 msid:SOOrt6xY2k v0
+a=ssrc:55543 mslabel:SOOrt6xY2k
+a=ssrc:55543 label:SOOrt6xY2kv0
+
+2016-04-12 12:04:35.905  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 44337 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:35,906  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 44337 typ host, mid , sdpMLine 0
+2016-04-12 12:04:35,906  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:35,906  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:35,906  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 44337 priority 2122252543 componentId 1, username 159bbc84, pass d5139c7b129963317c5c952886548326
+2016-04-12 12:04:35,908  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:35,908  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x15b86c0
+2016-04-12 12:04:35,908  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:35,908  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:35,908  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:35,909  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:35,913  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:35.914  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 35740 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:35,915  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 35740 typ host, mid , sdpMLine 0
+2016-04-12 12:04:35,915  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:35,915  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:35,915  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 35740 priority 2122187007 componentId 1, username 159bbc84, pass d5139c7b129963317c5c952886548326
+2016-04-12 12:04:35,920  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:35.921  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 55857 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:35,921  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 55857 typ host, mid , sdpMLine 0
+2016-04-12 12:04:35,922  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:35,922  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:35,925  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:35,925  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:35.933  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 37404 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:35,933  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 37404 typ host, mid , sdpMLine 0
+2016-04-12 12:04:35,934  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:35,934  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:35,935  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:35,935  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:35,935  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:35.935  - INFO: ErizoJSController - webrtc Addon status  104  id pub 40491246618330480 id_sub undefined
+2016-04-12 12:04:35.984  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 35740 typ srflx raddr 172.17.0.2 rport 35740',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:35,985  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 35740 typ srflx raddr 172.17.0.2 rport 35740, mid , sdpMLine 0
+2016-04-12 12:04:35,985  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:35,985  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:35,985  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 35740 raddr 172.17.0.2 rport 35740
+2016-04-12 12:04:35.986  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 37404 typ srflx raddr 172.17.0.2 rport 37404',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:35,988  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 37404 typ srflx raddr 172.17.0.2 rport 37404, mid , sdpMLine 0
+2016-04-12 12:04:35,988  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:35,988  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:41.332  - INFO: ErizoJSController - Adding subscriber from  Vlt8PaSrxbou-K_Swlbh to  40491246618330480 audio true video true
+2016-04-12 12:04:41,333  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:41,333  - DEBUG: OneToManyProcessor - Adding subscriber
+2016-04-12 12:04:41,333  - DEBUG: OneToManyProcessor - From 507465996, 2417672097 
+2016-04-12 12:04:41,333  - DEBUG: OneToManyProcessor - Subscribers ssrcs: Audio 507465996, video, 2417672097 from 507465996, 2417672097 
+2016-04-12 12:04:41,333  - DEBUG: OneToManyProcessor - adding fbsource
+2016-04-12 12:04:41.333  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:41.334  - INFO: ErizoJSController - webrtc Addon status  101  id pub 40491246618330480 id_sub Vlt8PaSrxbou-K_Swlbh
+2016-04-12 12:04:41.341  - INFO: ErizoJSController - Adding publisher peer_id  891877474030479700 minVideoBW 0 createOffer false
+2016-04-12 12:04:41,342  - DEBUG: OneToManyProcessor - OneToManyProcessor constructor
+2016-04-12 12:04:41,344  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:41.344  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:41.346  - INFO: ErizoJSController - webrtc Addon status  101  id pub 891877474030479700 id_sub undefined
+2016-04-12 12:04:41.519  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 1815711079057735691 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 EE:DC:A8:9C:2B:4B:BD:15:7D:CF:D2:80:8D:66:AD:11:13:6D:B2:52:79:0E:11:AD:DE:3D:7A:B3:1D:08:43:1B\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:b4486e23f86ccb08c31b067808d7f76b\r\na=ice-ufrag:ca17aa9d\r\na=mid:sdparta_0\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\nm=video 9 RTP/SAVPF 120 126 97\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:b4486e23f86ccb08c31b067808d7f76b\r\na=ice-ufrag:ca17aa9d\r\na=mid:sdparta_1\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\n' }
+2016-04-12 12:04:41,520  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 1815711079057735691 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 EE:DC:A8:9C:2B:4B:BD:15:7D:CF:D2:80:8D:66:AD:11:13:6D:B2:52:79:0E:11:AD:DE:3D:7A:B3:1D:08:43:1B
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=recvonly
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:b4486e23f86ccb08c31b067808d7f76b
+a=ice-ufrag:ca17aa9d
+a=mid:sdparta_0
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+m=video 9 RTP/SAVPF 120 126 97
+c=IN IP4 0.0.0.0
+a=recvonly
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:b4486e23f86ccb08c31b067808d7f76b
+a=ice-ufrag:ca17aa9d
+a=mid:sdparta_1
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+
+2016-04-12 12:04:41,520  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:41,520  - DEBUG: WebRtcConnection - Video 1 videossrc 0 Audio 1 audio ssrc 0 Bundle 1
+2016-04-12 12:04:41,520  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 2417672097
+2016-04-12 12:04:41,520  - DEBUG: WebRtcConnection - Creating videoTransport with creds ca17aa9d, b4486e23f86ccb08c31b067808d7f76b
+2016-04-12 12:04:41,520  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:41,520  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:41,521  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:41,521  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:41,521  - DEBUG: NiceConnection - Setting remote credentials ca17aa9d, b4486e23f86ccb08c31b067808d7f76b
+2016-04-12 12:04:41,521  - DEBUG: NiceConnection - Gathering candidates 0x19652b0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,523  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 35922 typ host generation 0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,523  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 32784 typ host generation 0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:41,523  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:41,523  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x19652b0
+2016-04-12 12:04:41,523  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:41,523  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:41,523  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:41,523  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:41,523  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials 7Fji, yrvChSXCo9s12wbrvQkmUg
+2016-04-12 12:04:41.524  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS jgKEYXdlH7
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 35922 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 32784 typ host generation 0
+a=ice-ufrag:7Fji
+a=ice-pwd:yrvChSXCo9s12wbrvQkmUg
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:507465996 cname:o/i14u9pJrxRKAsu
+a=ssrc:507465996 msid:jgKEYXdlH7 a0
+a=ssrc:507465996 mslabel:jgKEYXdlH7
+a=ssrc:507465996 label:jgKEYXdlH7a0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 35922 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 32784 typ host generation 0
+a=ice-ufrag:7Fji
+a=ice-pwd:yrvChSXCo9s12wbrvQkmUg
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:2417672097 cname:o/i14u9pJrxRKAsu
+a=ssrc:2417672097 msid:jgKEYXdlH7 v0
+a=ssrc:2417672097 mslabel:jgKEYXdlH7
+a=ssrc:2417672097 label:jgKEYXdlH7v0
+ id pub 40491246618330480 id_sub Vlt8PaSrxbou-K_Swlbh
+2016-04-12 12:04:41.524  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS jgKEYXdlH7
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 35922 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 32784 typ host generation 0
+a=ice-ufrag:7Fji
+a=ice-pwd:yrvChSXCo9s12wbrvQkmUg
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:507465996 cname:o/i14u9pJrxRKAsu
+a=ssrc:507465996 msid:jgKEYXdlH7 a0
+a=ssrc:507465996 mslabel:jgKEYXdlH7
+a=ssrc:507465996 label:jgKEYXdlH7a0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 35922 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 32784 typ host generation 0
+a=ice-ufrag:7Fji
+a=ice-pwd:yrvChSXCo9s12wbrvQkmUg
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:2417672097 cname:o/i14u9pJrxRKAsu
+a=ssrc:2417672097 msid:jgKEYXdlH7 v0
+a=ssrc:2417672097 mslabel:jgKEYXdlH7
+a=ssrc:2417672097 label:jgKEYXdlH7v0
+
+2016-04-12 12:04:41.688  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 1919594958541821776 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 B6:1A:42:1D:3B:26:BA:EB:D7:88:EF:64:D4:AA:DD:19:93:90:BD:0B:15:C5:FA:DF:60:E8:FF:9E:80:F2:0E:8D\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:57bbea22d2750fd69204e0680bf2ade1\r\na=ice-ufrag:bb3572ef\r\na=mid:sdparta_0\r\na=msid:{5510c9e8-e901-499f-bad2-6568582d9313} {ee5abc4d-5860-4c97-9ba2-2e5cff4051bc}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\na=ssrc:3291312386 cname:{f3f80698-1b7e-4140-9e99-b19d2d47997b}\r\nm=video 9 RTP/SAVPF 120 126 97\r\nb=AS:300\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:57bbea22d2750fd69204e0680bf2ade1\r\na=ice-ufrag:bb3572ef\r\na=mid:sdparta_1\r\na=msid:{5510c9e8-e901-499f-bad2-6568582d9313} {9ee27783-e483-4832-b88e-1d382093d1f9}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\na=ssrc:211071458 cname:{f3f80698-1b7e-4140-9e99-b19d2d47997b}\r\n' }
+2016-04-12 12:04:41,689  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 1919594958541821776 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 B6:1A:42:1D:3B:26:BA:EB:D7:88:EF:64:D4:AA:DD:19:93:90:BD:0B:15:C5:FA:DF:60:E8:FF:9E:80:F2:0E:8D
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:57bbea22d2750fd69204e0680bf2ade1
+a=ice-ufrag:bb3572ef
+a=mid:sdparta_0
+a=msid:{5510c9e8-e901-499f-bad2-6568582d9313} {ee5abc4d-5860-4c97-9ba2-2e5cff4051bc}
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+a=ssrc:3291312386 cname:{f3f80698-1b7e-4140-9e99-b19d2d47997b}
+m=video 9 RTP/SAVPF 120 126 97
+b=AS:300
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:57bbea22d2750fd69204e0680bf2ade1
+a=ice-ufrag:bb3572ef
+a=mid:sdparta_1
+a=msid:{5510c9e8-e901-499f-bad2-6568582d9313} {9ee27783-e483-4832-b88e-1d382093d1f9}
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+a=ssrc:211071458 cname:{f3f80698-1b7e-4140-9e99-b19d2d47997b}
+
+2016-04-12 12:04:41,689  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:41,689  - DEBUG: WebRtcConnection - Video 1 videossrc 211071458 Audio 1 audio ssrc 3291312386 Bundle 1
+2016-04-12 12:04:41,689  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 55543
+2016-04-12 12:04:41,689  - DEBUG: WebRtcConnection - Creating videoTransport with creds bb3572ef, 57bbea22d2750fd69204e0680bf2ade1
+2016-04-12 12:04:41,689  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:41,690  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:41,690  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:41,690  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:41,690  - DEBUG: NiceConnection - Setting remote credentials bb3572ef, 57bbea22d2750fd69204e0680bf2ade1
+2016-04-12 12:04:41,690  - DEBUG: WebRtcConnection - Setting remote bandwidth 300
+2016-04-12 12:04:41,690  - DEBUG: NiceConnection - Gathering candidates 0x19a1d00
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,691  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 59206 typ host generation 0
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:41,691  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 52085 typ host generation 0
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:41,691  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:41,691  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x19a1d00
+2016-04-12 12:04:41,691  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:41,691  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:41,691  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:41,691  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:41,691  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials Kzay, jthJOplQHVi44uw0og0aCU
+2016-04-12 12:04:41.691  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS mwVVsYDP6N
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59206 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 52085 typ host generation 0
+a=ice-ufrag:Kzay
+a=ice-pwd:jthJOplQHVi44uw0og0aCU
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:44444 cname:o/i14u9pJrxRKAsu
+a=ssrc:44444 msid:mwVVsYDP6N a0
+a=ssrc:44444 mslabel:mwVVsYDP6N
+a=ssrc:44444 label:mwVVsYDP6Na0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59206 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 52085 typ host generation 0
+a=ice-ufrag:Kzay
+a=ice-pwd:jthJOplQHVi44uw0og0aCU
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:55543 cname:o/i14u9pJrxRKAsu
+a=ssrc:55543 msid:mwVVsYDP6N v0
+a=ssrc:55543 mslabel:mwVVsYDP6N
+a=ssrc:55543 label:mwVVsYDP6Nv0
+ id pub 891877474030479700 id_sub undefined
+2016-04-12 12:04:41.692  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS mwVVsYDP6N
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59206 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 52085 typ host generation 0
+a=ice-ufrag:Kzay
+a=ice-pwd:jthJOplQHVi44uw0og0aCU
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:44444 cname:o/i14u9pJrxRKAsu
+a=ssrc:44444 msid:mwVVsYDP6N a0
+a=ssrc:44444 mslabel:mwVVsYDP6N
+a=ssrc:44444 label:mwVVsYDP6Na0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 59206 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 52085 typ host generation 0
+a=ice-ufrag:Kzay
+a=ice-pwd:jthJOplQHVi44uw0og0aCU
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:55543 cname:o/i14u9pJrxRKAsu
+a=ssrc:55543 msid:mwVVsYDP6N v0
+a=ssrc:55543 mslabel:mwVVsYDP6N
+a=ssrc:55543 label:mwVVsYDP6Nv0
+
+2016-04-12 12:04:42.064  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 53111 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,065  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 53111 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,065  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,065  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,065  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 53111 priority 2122252543 componentId 1, username ca17aa9d, pass b4486e23f86ccb08c31b067808d7f76b
+2016-04-12 12:04:42,067  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:42,067  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x19652b0
+2016-04-12 12:04:42,067  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:42,067  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:42,067  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:42,067  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:42.071  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 52673 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,072  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 52673 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,072  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,072  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,072  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 52673 priority 2122187007 componentId 1, username ca17aa9d, pass b4486e23f86ccb08c31b067808d7f76b
+2016-04-12 12:04:42,074  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:42.073  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 44814 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,083  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 44814 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,083  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,083  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42.084  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 44745 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,084  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 44745 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,084  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,084  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,085  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:42,094  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:42,099  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:42,099  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:42,099  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:42,099  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:42.099  - INFO: ErizoJSController - webrtc Addon status  104  id pub 40491246618330480 id_sub Vlt8PaSrxbou-K_Swlbh
+2016-04-12 12:04:42.192  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 44745 typ srflx raddr 172.17.0.2 rport 44745',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,193  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 44745 typ srflx raddr 172.17.0.2 rport 44745, mid , sdpMLine 0
+2016-04-12 12:04:42,193  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,193  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42.195  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 52673 typ srflx raddr 172.17.0.2 rport 52673',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,196  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 52673 typ srflx raddr 172.17.0.2 rport 52673, mid , sdpMLine 0
+2016-04-12 12:04:42,196  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,196  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,196  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 52673 raddr 172.17.0.2 rport 52673
+2016-04-12 12:04:42.198  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 58396 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,199  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 58396 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,199  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,199  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,199  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 58396 priority 2122252543 componentId 1, username bb3572ef, pass 57bbea22d2750fd69204e0680bf2ade1
+2016-04-12 12:04:42,200  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:42,200  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x19a1d00
+2016-04-12 12:04:42,200  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:42,200  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:42,200  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:42,200  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:42.204  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 44195 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,204  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 44195 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,204  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,204  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,204  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 44195 priority 2122187007 componentId 1, username bb3572ef, pass 57bbea22d2750fd69204e0680bf2ade1
+2016-04-12 12:04:42,205  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:42.212  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 54054 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,212  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 54054 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,212  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,212  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42.213  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 54427 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,214  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 54427 typ host, mid , sdpMLine 0
+2016-04-12 12:04:42,214  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,214  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,215  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:42,221  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:42,221  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:42,221  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:42,221  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:42,221  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:42.221  - INFO: ErizoJSController - webrtc Addon status  104  id pub 891877474030479700 id_sub undefined
+2016-04-12 12:04:42.279  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 44195 typ srflx raddr 172.17.0.2 rport 44195',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,279  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 44195 typ srflx raddr 172.17.0.2 rport 44195, mid , sdpMLine 0
+2016-04-12 12:04:42,279  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,279  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42,279  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 44195 raddr 172.17.0.2 rport 44195
+2016-04-12 12:04:42.295  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 54427 typ srflx raddr 172.17.0.2 rport 54427',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:42,296  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 54427 typ srflx raddr 172.17.0.2 rport 54427, mid , sdpMLine 0
+2016-04-12 12:04:42,296  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:42,296  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:42.569  - INFO: ErizoJSController - Adding subscriber from  bgzZIjtU2pkEFIELwlbg to  891877474030479700 audio true video true
+2016-04-12 12:04:42,570  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:42,570  - DEBUG: OneToManyProcessor - Adding subscriber
+2016-04-12 12:04:42,570  - DEBUG: OneToManyProcessor - From 3291312386, 211071458 
+2016-04-12 12:04:42,570  - DEBUG: OneToManyProcessor - Subscribers ssrcs: Audio 3291312386, video, 211071458 from 3291312386, 211071458 
+2016-04-12 12:04:42,570  - DEBUG: OneToManyProcessor - adding fbsource
+2016-04-12 12:04:42.570  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:42.578  - INFO: ErizoJSController - webrtc Addon status  101  id pub 891877474030479700 id_sub bgzZIjtU2pkEFIELwlbg
+2016-04-12 12:04:42.773  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 5960012172347219373 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 95:F9:72:B1:9E:C1:9D:BA:E7:43:F5:FB:64:61:8E:55:3B:D7:28:5A:8B:89:D2:A9:A3:25:5E:89:DB:1C:D2:DB\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:706f748c4d9d18a9d458f13d1ee62001\r\na=ice-ufrag:b45a3680\r\na=mid:sdparta_0\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\nm=video 9 RTP/SAVPF 120 126 97\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:706f748c4d9d18a9d458f13d1ee62001\r\na=ice-ufrag:b45a3680\r\na=mid:sdparta_1\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\n' }
+2016-04-12 12:04:42,773  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 5960012172347219373 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 95:F9:72:B1:9E:C1:9D:BA:E7:43:F5:FB:64:61:8E:55:3B:D7:28:5A:8B:89:D2:A9:A3:25:5E:89:DB:1C:D2:DB
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=recvonly
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:706f748c4d9d18a9d458f13d1ee62001
+a=ice-ufrag:b45a3680
+a=mid:sdparta_0
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+m=video 9 RTP/SAVPF 120 126 97
+c=IN IP4 0.0.0.0
+a=recvonly
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:706f748c4d9d18a9d458f13d1ee62001
+a=ice-ufrag:b45a3680
+a=mid:sdparta_1
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+
+2016-04-12 12:04:42,774  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:42,774  - DEBUG: WebRtcConnection - Video 1 videossrc 0 Audio 1 audio ssrc 0 Bundle 1
+2016-04-12 12:04:42,774  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 211071458
+2016-04-12 12:04:42,774  - DEBUG: WebRtcConnection - Creating videoTransport with creds b45a3680, 706f748c4d9d18a9d458f13d1ee62001
+2016-04-12 12:04:42,774  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:42,774  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:42,774  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:42,774  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:42,774  - DEBUG: NiceConnection - Setting remote credentials b45a3680, 706f748c4d9d18a9d458f13d1ee62001
+2016-04-12 12:04:42,778  - DEBUG: NiceConnection - Gathering candidates 0x1a27070
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:42,779  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 53475 typ host generation 0
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:42,779  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 33513 typ host generation 0
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:42,779  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:42,779  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x1a27070
+2016-04-12 12:04:42,779  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:42,779  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:42,779  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:42,779  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:42,779  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials StjO, 66QqtuV2MH9PgbtTBoj22x
+2016-04-12 12:04:42.779  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS 9kjE8hCPcz
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 53475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 33513 typ host generation 0
+a=ice-ufrag:StjO
+a=ice-pwd:66QqtuV2MH9PgbtTBoj22x
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:3291312386 cname:o/i14u9pJrxRKAsu
+a=ssrc:3291312386 msid:9kjE8hCPcz a0
+a=ssrc:3291312386 mslabel:9kjE8hCPcz
+a=ssrc:3291312386 label:9kjE8hCPcza0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 53475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 33513 typ host generation 0
+a=ice-ufrag:StjO
+a=ice-pwd:66QqtuV2MH9PgbtTBoj22x
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:211071458 cname:o/i14u9pJrxRKAsu
+a=ssrc:211071458 msid:9kjE8hCPcz v0
+a=ssrc:211071458 mslabel:9kjE8hCPcz
+a=ssrc:211071458 label:9kjE8hCPczv0
+ id pub 891877474030479700 id_sub bgzZIjtU2pkEFIELwlbg
+2016-04-12 12:04:42.779  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS 9kjE8hCPcz
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 53475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 33513 typ host generation 0
+a=ice-ufrag:StjO
+a=ice-pwd:66QqtuV2MH9PgbtTBoj22x
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:3291312386 cname:o/i14u9pJrxRKAsu
+a=ssrc:3291312386 msid:9kjE8hCPcz a0
+a=ssrc:3291312386 mslabel:9kjE8hCPcz
+a=ssrc:3291312386 label:9kjE8hCPcza0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 53475 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 33513 typ host generation 0
+a=ice-ufrag:StjO
+a=ice-pwd:66QqtuV2MH9PgbtTBoj22x
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:211071458 cname:o/i14u9pJrxRKAsu
+a=ssrc:211071458 msid:9kjE8hCPcz v0
+a=ssrc:211071458 mslabel:9kjE8hCPcz
+a=ssrc:211071458 label:9kjE8hCPczv0
+
+2016-04-12 12:04:43.039  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 57886 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:43,040  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 57886 typ host, mid , sdpMLine 0
+2016-04-12 12:04:43,041  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:43,041  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:43,041  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 57886 priority 2122252543 componentId 1, username b45a3680, pass 706f748c4d9d18a9d458f13d1ee62001
+2016-04-12 12:04:43.041  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 59659 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:43,041  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 59659 typ host, mid , sdpMLine 0
+2016-04-12 12:04:43,041  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:43,041  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:43,041  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 59659 priority 2122187007 componentId 1, username b45a3680, pass 706f748c4d9d18a9d458f13d1ee62001
+2016-04-12 12:04:43,042  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:43,043  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x1a27070
+2016-04-12 12:04:43,043  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:43,043  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:43,043  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:43,043  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:43.042  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 41590 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:43,052  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 41590 typ host, mid , sdpMLine 0
+2016-04-12 12:04:43,053  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:43,053  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:43,055  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:43.065  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 59440 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:43,065  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 59440 typ host, mid , sdpMLine 0
+2016-04-12 12:04:43,066  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:43,066  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:43,066  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:43,069  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:43,071  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:43,071  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:43,071  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:43,071  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:43.072  - INFO: ErizoJSController - webrtc Addon status  104  id pub 891877474030479700 id_sub bgzZIjtU2pkEFIELwlbg
+2016-04-12 12:04:43.377  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 59659 typ srflx raddr 172.17.0.2 rport 59659',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:43,378  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 59659 typ srflx raddr 172.17.0.2 rport 59659, mid , sdpMLine 0
+2016-04-12 12:04:43,378  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:43,378  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:43,378  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 59659 raddr 172.17.0.2 rport 59659
+2016-04-12 12:04:43.380  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 59440 typ srflx raddr 172.17.0.2 rport 59440',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:43,381  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 59440 typ srflx raddr 172.17.0.2 rport 59440, mid , sdpMLine 0
+2016-04-12 12:04:43,381  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:43,381  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:47.739  - INFO: ErizoJSController - Adding subscriber from  Yw0f2J36e8oDHUvswlbi to  40491246618330480 audio true video true
+2016-04-12 12:04:47,742  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:47,742  - DEBUG: OneToManyProcessor - Adding subscriber
+2016-04-12 12:04:47,742  - DEBUG: OneToManyProcessor - From 507465996, 2417672097 
+2016-04-12 12:04:47,742  - DEBUG: OneToManyProcessor - Subscribers ssrcs: Audio 507465996, video, 2417672097 from 507465996, 2417672097 
+2016-04-12 12:04:47,742  - DEBUG: OneToManyProcessor - adding fbsource
+2016-04-12 12:04:47.742  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:47.756  - INFO: ErizoJSController - Adding subscriber from  Yw0f2J36e8oDHUvswlbi to  891877474030479700 audio true video true
+2016-04-12 12:04:47,756  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:47,756  - DEBUG: OneToManyProcessor - Adding subscriber
+2016-04-12 12:04:47,757  - DEBUG: OneToManyProcessor - From 3291312386, 211071458 
+2016-04-12 12:04:47,757  - DEBUG: OneToManyProcessor - Subscribers ssrcs: Audio 3291312386, video, 211071458 from 3291312386, 211071458 
+2016-04-12 12:04:47,757  - DEBUG: OneToManyProcessor - adding fbsource
+2016-04-12 12:04:47.757  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:47.765  - INFO: ErizoJSController - Adding publisher peer_id  678995816502720100 minVideoBW 0 createOffer false
+2016-04-12 12:04:47,766  - DEBUG: OneToManyProcessor - OneToManyProcessor constructor
+2016-04-12 12:04:47,784  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:47.785  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:47.840  - INFO: ErizoJSController - webrtc Addon status  101  id pub 40491246618330480 id_sub Yw0f2J36e8oDHUvswlbi
+2016-04-12 12:04:47.842  - INFO: ErizoJSController - webrtc Addon status  101  id pub 891877474030479700 id_sub Yw0f2J36e8oDHUvswlbi
+2016-04-12 12:04:47.844  - INFO: ErizoJSController - webrtc Addon status  101  id pub 678995816502720100 id_sub undefined
+2016-04-12 12:04:48.234  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 5919936756959044024 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 E2:B2:29:08:73:69:FA:F2:9B:47:4E:DE:13:43:77:7B:AD:8A:94:B3:71:AB:71:40:59:1A:9D:5A:98:F7:86:29\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:64608b6f2ba6b7315596665343dd4b82\r\na=ice-ufrag:42e5dbcc\r\na=mid:sdparta_0\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\nm=video 9 RTP/SAVPF 120 126 97\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:64608b6f2ba6b7315596665343dd4b82\r\na=ice-ufrag:42e5dbcc\r\na=mid:sdparta_1\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\n' }
+2016-04-12 12:04:48,234  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 5919936756959044024 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 E2:B2:29:08:73:69:FA:F2:9B:47:4E:DE:13:43:77:7B:AD:8A:94:B3:71:AB:71:40:59:1A:9D:5A:98:F7:86:29
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=recvonly
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:64608b6f2ba6b7315596665343dd4b82
+a=ice-ufrag:42e5dbcc
+a=mid:sdparta_0
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+m=video 9 RTP/SAVPF 120 126 97
+c=IN IP4 0.0.0.0
+a=recvonly
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:64608b6f2ba6b7315596665343dd4b82
+a=ice-ufrag:42e5dbcc
+a=mid:sdparta_1
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+
+2016-04-12 12:04:48,235  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:48,235  - DEBUG: WebRtcConnection - Video 1 videossrc 0 Audio 1 audio ssrc 0 Bundle 1
+2016-04-12 12:04:48,235  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 2417672097
+2016-04-12 12:04:48,235  - DEBUG: WebRtcConnection - Creating videoTransport with creds 42e5dbcc, 64608b6f2ba6b7315596665343dd4b82
+2016-04-12 12:04:48,235  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:48,237  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:48,237  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:48,237  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:48,237  - DEBUG: NiceConnection - Setting remote credentials 42e5dbcc, 64608b6f2ba6b7315596665343dd4b82
+2016-04-12 12:04:48,270  - DEBUG: NiceConnection - Gathering candidates 0x1a1a290
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,272  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 52407 typ host generation 0
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,272  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 60775 typ host generation 0
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,272  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:48,272  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x1a1a290
+2016-04-12 12:04:48,272  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:48,272  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:48,272  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:48,272  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:48,273  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials 3/Ug, 0sA14OP9NxNpEloHjZCGNN
+2016-04-12 12:04:48.273  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS Yos51FBOfI
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 52407 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60775 typ host generation 0
+a=ice-ufrag:3/Ug
+a=ice-pwd:0sA14OP9NxNpEloHjZCGNN
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:507465996 cname:o/i14u9pJrxRKAsu
+a=ssrc:507465996 msid:Yos51FBOfI a0
+a=ssrc:507465996 mslabel:Yos51FBOfI
+a=ssrc:507465996 label:Yos51FBOfIa0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 52407 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60775 typ host generation 0
+a=ice-ufrag:3/Ug
+a=ice-pwd:0sA14OP9NxNpEloHjZCGNN
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:2417672097 cname:o/i14u9pJrxRKAsu
+a=ssrc:2417672097 msid:Yos51FBOfI v0
+a=ssrc:2417672097 mslabel:Yos51FBOfI
+a=ssrc:2417672097 label:Yos51FBOfIv0
+ id pub 40491246618330480 id_sub Yw0f2J36e8oDHUvswlbi
+2016-04-12 12:04:48.273  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS Yos51FBOfI
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 52407 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60775 typ host generation 0
+a=ice-ufrag:3/Ug
+a=ice-pwd:0sA14OP9NxNpEloHjZCGNN
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:507465996 cname:o/i14u9pJrxRKAsu
+a=ssrc:507465996 msid:Yos51FBOfI a0
+a=ssrc:507465996 mslabel:Yos51FBOfI
+a=ssrc:507465996 label:Yos51FBOfIa0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 52407 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60775 typ host generation 0
+a=ice-ufrag:3/Ug
+a=ice-pwd:0sA14OP9NxNpEloHjZCGNN
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:2417672097 cname:o/i14u9pJrxRKAsu
+a=ssrc:2417672097 msid:Yos51FBOfI v0
+a=ssrc:2417672097 mslabel:Yos51FBOfI
+a=ssrc:2417672097 label:Yos51FBOfIv0
+
+2016-04-12 12:04:48.564  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 1710275981217820070 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 7A:73:E0:F7:6B:31:E6:C2:B7:36:ED:B9:E7:F6:DE:59:A3:57:D5:60:25:1F:22:0C:E3:C0:B9:06:33:6F:14:64\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:cd3e58e1e4e81f1a0fd0a25767f02ced\r\na=ice-ufrag:980af212\r\na=mid:sdparta_0\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\nm=video 9 RTP/SAVPF 120 126 97\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:cd3e58e1e4e81f1a0fd0a25767f02ced\r\na=ice-ufrag:980af212\r\na=mid:sdparta_1\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\n' }
+2016-04-12 12:04:48,566  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 1710275981217820070 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 7A:73:E0:F7:6B:31:E6:C2:B7:36:ED:B9:E7:F6:DE:59:A3:57:D5:60:25:1F:22:0C:E3:C0:B9:06:33:6F:14:64
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=recvonly
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:cd3e58e1e4e81f1a0fd0a25767f02ced
+a=ice-ufrag:980af212
+a=mid:sdparta_0
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+m=video 9 RTP/SAVPF 120 126 97
+c=IN IP4 0.0.0.0
+a=recvonly
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:cd3e58e1e4e81f1a0fd0a25767f02ced
+a=ice-ufrag:980af212
+a=mid:sdparta_1
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+
+2016-04-12 12:04:48,566  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:48,566  - DEBUG: WebRtcConnection - Video 1 videossrc 0 Audio 1 audio ssrc 0 Bundle 1
+2016-04-12 12:04:48,566  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 211071458
+2016-04-12 12:04:48,566  - DEBUG: WebRtcConnection - Creating videoTransport with creds 980af212, cd3e58e1e4e81f1a0fd0a25767f02ced
+2016-04-12 12:04:48,566  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:48,567  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:48,567  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:48,567  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:48,567  - DEBUG: NiceConnection - Setting remote credentials 980af212, cd3e58e1e4e81f1a0fd0a25767f02ced
+2016-04-12 12:04:48,567  - DEBUG: NiceConnection - Gathering candidates 0x1586450
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,568  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 32991 typ host generation 0
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,568  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 49341 typ host generation 0
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,568  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:48,568  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x1586450
+2016-04-12 12:04:48,568  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:48,568  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:48,568  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:48,568  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:48,568  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials rQec, 6PdxJBcunrNh99K1X+cRsr
+2016-04-12 12:04:48.568  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS 9OWF6geidl
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 32991 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 49341 typ host generation 0
+a=ice-ufrag:rQec
+a=ice-pwd:6PdxJBcunrNh99K1X+cRsr
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:3291312386 cname:o/i14u9pJrxRKAsu
+a=ssrc:3291312386 msid:9OWF6geidl a0
+a=ssrc:3291312386 mslabel:9OWF6geidl
+a=ssrc:3291312386 label:9OWF6geidla0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 32991 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 49341 typ host generation 0
+a=ice-ufrag:rQec
+a=ice-pwd:6PdxJBcunrNh99K1X+cRsr
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:211071458 cname:o/i14u9pJrxRKAsu
+a=ssrc:211071458 msid:9OWF6geidl v0
+a=ssrc:211071458 mslabel:9OWF6geidl
+a=ssrc:211071458 label:9OWF6geidlv0
+ id pub 891877474030479700 id_sub Yw0f2J36e8oDHUvswlbi
+2016-04-12 12:04:48.569  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS 9OWF6geidl
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 32991 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 49341 typ host generation 0
+a=ice-ufrag:rQec
+a=ice-pwd:6PdxJBcunrNh99K1X+cRsr
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:3291312386 cname:o/i14u9pJrxRKAsu
+a=ssrc:3291312386 msid:9OWF6geidl a0
+a=ssrc:3291312386 mslabel:9OWF6geidl
+a=ssrc:3291312386 label:9OWF6geidla0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 32991 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 49341 typ host generation 0
+a=ice-ufrag:rQec
+a=ice-pwd:6PdxJBcunrNh99K1X+cRsr
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:211071458 cname:o/i14u9pJrxRKAsu
+a=ssrc:211071458 msid:9OWF6geidl v0
+a=ssrc:211071458 mslabel:9OWF6geidl
+a=ssrc:211071458 label:9OWF6geidlv0
+
+2016-04-12 12:04:48.848  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 2286511481293486221 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 0A:F5:FB:F9:6D:07:D2:7A:BB:F1:05:78:75:DD:81:C3:13:3C:E4:E0:BD:58:2A:36:FD:0D:58:1A:CB:A8:0E:AF\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:51542f496210dd038aa7f6c61f30271f\r\na=ice-ufrag:0841c4b3\r\na=mid:sdparta_0\r\na=msid:{1ed653ff-1116-497c-a9bd-1affb1522249} {b38aaa5d-15ca-4487-b194-8d4bf93287bf}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\na=ssrc:1193212395 cname:{f02e8c88-bde2-4282-b216-b9258c19103f}\r\nm=video 9 RTP/SAVPF 120 126 97\r\nb=AS:300\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:51542f496210dd038aa7f6c61f30271f\r\na=ice-ufrag:0841c4b3\r\na=mid:sdparta_1\r\na=msid:{1ed653ff-1116-497c-a9bd-1affb1522249} {804dd488-8e9c-4b1d-88a8-e736e23569c9}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\na=ssrc:3262379614 cname:{f02e8c88-bde2-4282-b216-b9258c19103f}\r\n' }
+2016-04-12 12:04:48,848  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 2286511481293486221 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 0A:F5:FB:F9:6D:07:D2:7A:BB:F1:05:78:75:DD:81:C3:13:3C:E4:E0:BD:58:2A:36:FD:0D:58:1A:CB:A8:0E:AF
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:51542f496210dd038aa7f6c61f30271f
+a=ice-ufrag:0841c4b3
+a=mid:sdparta_0
+a=msid:{1ed653ff-1116-497c-a9bd-1affb1522249} {b38aaa5d-15ca-4487-b194-8d4bf93287bf}
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+a=ssrc:1193212395 cname:{f02e8c88-bde2-4282-b216-b9258c19103f}
+m=video 9 RTP/SAVPF 120 126 97
+b=AS:300
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:51542f496210dd038aa7f6c61f30271f
+a=ice-ufrag:0841c4b3
+a=mid:sdparta_1
+a=msid:{1ed653ff-1116-497c-a9bd-1affb1522249} {804dd488-8e9c-4b1d-88a8-e736e23569c9}
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+a=ssrc:3262379614 cname:{f02e8c88-bde2-4282-b216-b9258c19103f}
+
+2016-04-12 12:04:48,848  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:48,848  - DEBUG: WebRtcConnection - Video 1 videossrc 3262379614 Audio 1 audio ssrc 1193212395 Bundle 1
+2016-04-12 12:04:48,848  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 55543
+2016-04-12 12:04:48,848  - DEBUG: WebRtcConnection - Creating videoTransport with creds 0841c4b3, 51542f496210dd038aa7f6c61f30271f
+2016-04-12 12:04:48,848  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:48,849  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:48,849  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:48,849  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:48,849  - DEBUG: NiceConnection - Setting remote credentials 0841c4b3, 51542f496210dd038aa7f6c61f30271f
+2016-04-12 12:04:48,849  - DEBUG: WebRtcConnection - Setting remote bandwidth 300
+2016-04-12 12:04:48,850  - DEBUG: NiceConnection - Gathering candidates 0x1ac9cc0
+2016-04-12 12:04:48,850  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,851  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 38213 typ host generation 0
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:48,851  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 41633 typ host generation 0
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:48,851  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:48,851  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x1ac9cc0
+2016-04-12 12:04:48,851  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:48,851  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:48,851  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:48,851  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:48,851  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials gTCy, HMDIFTC0mTw+wLwykdUVN1
+2016-04-12 12:04:48.851  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS 4ni0Ln4ena
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 38213 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 41633 typ host generation 0
+a=ice-ufrag:gTCy
+a=ice-pwd:HMDIFTC0mTw+wLwykdUVN1
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:44444 cname:o/i14u9pJrxRKAsu
+a=ssrc:44444 msid:4ni0Ln4ena a0
+a=ssrc:44444 mslabel:4ni0Ln4ena
+a=ssrc:44444 label:4ni0Ln4enaa0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 38213 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 41633 typ host generation 0
+a=ice-ufrag:gTCy
+a=ice-pwd:HMDIFTC0mTw+wLwykdUVN1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:55543 cname:o/i14u9pJrxRKAsu
+a=ssrc:55543 msid:4ni0Ln4ena v0
+a=ssrc:55543 mslabel:4ni0Ln4ena
+a=ssrc:55543 label:4ni0Ln4enav0
+ id pub 678995816502720100 id_sub undefined
+2016-04-12 12:04:48.851  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS 4ni0Ln4ena
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 38213 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 41633 typ host generation 0
+a=ice-ufrag:gTCy
+a=ice-pwd:HMDIFTC0mTw+wLwykdUVN1
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:44444 cname:o/i14u9pJrxRKAsu
+a=ssrc:44444 msid:4ni0Ln4ena a0
+a=ssrc:44444 mslabel:4ni0Ln4ena
+a=ssrc:44444 label:4ni0Ln4enaa0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 38213 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 41633 typ host generation 0
+a=ice-ufrag:gTCy
+a=ice-pwd:HMDIFTC0mTw+wLwykdUVN1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendrecv
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:55543 cname:o/i14u9pJrxRKAsu
+a=ssrc:55543 msid:4ni0Ln4ena v0
+a=ssrc:55543 mslabel:4ni0Ln4ena
+a=ssrc:55543 label:4ni0Ln4enav0
+
+2016-04-12 12:04:49.422  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 50587 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,422  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 50587 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,422  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,422  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,422  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 50587 priority 2122252543 componentId 1, username 42e5dbcc, pass 64608b6f2ba6b7315596665343dd4b82
+2016-04-12 12:04:49,426  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:49,426  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x1a1a290
+2016-04-12 12:04:49,426  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:49,426  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:49,426  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:49,427  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:49.428  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 49482 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,429  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 49482 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,429  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,429  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,429  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 49482 priority 2122187007 componentId 1, username 42e5dbcc, pass 64608b6f2ba6b7315596665343dd4b82
+2016-04-12 12:04:49.434  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 48504 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,434  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 48504 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,434  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,434  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.435  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 43796 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,435  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 43796 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,435  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,435  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,438  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:49,460  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:49,467  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:49,468  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:49,468  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:49,468  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:49,468  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:49.468  - INFO: ErizoJSController - webrtc Addon status  104  id pub 40491246618330480 id_sub Yw0f2J36e8oDHUvswlbi
+2016-04-12 12:04:49.490  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 43796 typ srflx raddr 172.17.0.2 rport 43796',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,491  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 43796 typ srflx raddr 172.17.0.2 rport 43796, mid , sdpMLine 0
+2016-04-12 12:04:49,491  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,491  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.492  - INFO: ErizoJSController - Process Signaling message:  40491246618330480 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 49482 typ srflx raddr 172.17.0.2 rport 49482',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,493  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 49482 typ srflx raddr 172.17.0.2 rport 49482, mid , sdpMLine 0
+2016-04-12 12:04:49,493  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,493  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,493  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 49482 raddr 172.17.0.2 rport 49482
+2016-04-12 12:04:49.500  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 49535 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,500  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 49535 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,500  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,500  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,500  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 49535 priority 2122252543 componentId 1, username 980af212, pass cd3e58e1e4e81f1a0fd0a25767f02ced
+2016-04-12 12:04:49,504  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:49,504  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x1586450
+2016-04-12 12:04:49,504  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:49,504  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:49,504  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:49,505  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:49.508  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 38180 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,509  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:49,511  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 38180 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,511  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,511  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,511  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 38180 priority 2122187007 componentId 1, username 980af212, pass cd3e58e1e4e81f1a0fd0a25767f02ced
+2016-04-12 12:04:49.513  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 45212 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,515  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 45212 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,515  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,515  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.515  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 42354 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,515  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 42354 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,515  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,515  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.516  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 37790 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,518  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 37790 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,518  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,518  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,518  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 37790 priority 2122252543 componentId 1, username 0841c4b3, pass 51542f496210dd038aa7f6c61f30271f
+2016-04-12 12:04:49,520  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:49,520  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x1ac9cc0
+2016-04-12 12:04:49,520  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:49,520  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:49,520  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:49.522  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 52648 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,522  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 52648 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,523  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,523  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,523  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 52648 priority 2122187007 componentId 1, username 0841c4b3, pass 51542f496210dd038aa7f6c61f30271f
+2016-04-12 12:04:49,523  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:49,526  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:49.525  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 38363 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,530  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 38363 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,530  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,530  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.533  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 41150 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,533  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 41150 typ host, mid , sdpMLine 0
+2016-04-12 12:04:49,533  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,533  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.535  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 42354 typ srflx raddr 172.17.0.2 rport 42354',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,535  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 42354 typ srflx raddr 172.17.0.2 rport 42354, mid , sdpMLine 0
+2016-04-12 12:04:49,535  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,535  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49.535  - INFO: ErizoJSController - Process Signaling message:  891877474030479700 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 38180 typ srflx raddr 172.17.0.2 rport 38180',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,539  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 38180 typ srflx raddr 172.17.0.2 rport 38180, mid , sdpMLine 0
+2016-04-12 12:04:49,540  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,540  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,540  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 38180 raddr 172.17.0.2 rport 38180
+2016-04-12 12:04:49,543  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:49,543  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:49,544  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:49,544  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:49,544  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:49.540  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 52648 typ srflx raddr 172.17.0.2 rport 52648',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,544  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 52648 typ srflx raddr 172.17.0.2 rport 52648, mid , sdpMLine 0
+2016-04-12 12:04:49,544  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,544  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,544  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 52648 raddr 172.17.0.2 rport 52648
+2016-04-12 12:04:49.546  - INFO: ErizoJSController - webrtc Addon status  104  id pub 891877474030479700 id_sub Yw0f2J36e8oDHUvswlbi
+2016-04-12 12:04:49.557  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Yw0f2J36e8oDHUvswlbi { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 41150 typ srflx raddr 172.17.0.2 rport 41150',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:49,561  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 41150 typ srflx raddr 172.17.0.2 rport 41150, mid , sdpMLine 0
+2016-04-12 12:04:49,561  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:49,561  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:49,572  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:49,577  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:49,591  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:49,592  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:49,592  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:49,592  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:49,592  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:49.592  - INFO: ErizoJSController - webrtc Addon status  104  id pub 678995816502720100 id_sub undefined
+2016-04-12 12:04:49.666  - INFO: ErizoJSController - Adding subscriber from  bgzZIjtU2pkEFIELwlbg to  678995816502720100 audio true video true
+2016-04-12 12:04:49,667  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:49,667  - DEBUG: OneToManyProcessor - Adding subscriber
+2016-04-12 12:04:49,667  - DEBUG: OneToManyProcessor - From 1193212395, 3262379614 
+2016-04-12 12:04:49,667  - DEBUG: OneToManyProcessor - Subscribers ssrcs: Audio 1193212395, video, 3262379614 from 1193212395, 3262379614 
+2016-04-12 12:04:49,667  - DEBUG: OneToManyProcessor - adding fbsource
+2016-04-12 12:04:49.667  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:49.668  - INFO: ErizoJSController - Adding subscriber from  Vlt8PaSrxbou-K_Swlbh to  678995816502720100 audio true video true
+2016-04-12 12:04:49,668  - WARN: WebRtcConnection - WebRtcConnection constructor stunserver  stunPort 0 minPort 0 maxPort 0
+
+2016-04-12 12:04:49,669  - DEBUG: OneToManyProcessor - Adding subscriber
+2016-04-12 12:04:49,669  - DEBUG: OneToManyProcessor - From 1193212395, 3262379614 
+2016-04-12 12:04:49,669  - DEBUG: OneToManyProcessor - Subscribers ssrcs: Audio 1193212395, video, 3262379614 from 1193212395, 3262379614 
+2016-04-12 12:04:49,669  - DEBUG: OneToManyProcessor - adding fbsource
+2016-04-12 12:04:49.669  - INFO: ErizoJSController - initializing
+2016-04-12 12:04:49.671  - INFO: ErizoJSController - webrtc Addon status  101  id pub 678995816502720100 id_sub bgzZIjtU2pkEFIELwlbg
+2016-04-12 12:04:49.672  - INFO: ErizoJSController - webrtc Addon status  101  id pub 678995816502720100 id_sub Vlt8PaSrxbou-K_Swlbh
+2016-04-12 12:04:50.153  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 481990349065969619 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 91:55:B1:46:6A:E3:46:B8:4C:B6:27:A9:CC:6B:35:97:FC:DD:9B:DB:0F:81:06:EF:B1:AA:97:BA:3A:09:DF:3F\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:3807177b46fab8dd7d0a67e73913be82\r\na=ice-ufrag:fe757f57\r\na=mid:sdparta_0\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\nm=video 9 RTP/SAVPF 120 126 97\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:3807177b46fab8dd7d0a67e73913be82\r\na=ice-ufrag:fe757f57\r\na=mid:sdparta_1\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\n' }
+2016-04-12 12:04:50,153  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 481990349065969619 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 91:55:B1:46:6A:E3:46:B8:4C:B6:27:A9:CC:6B:35:97:FC:DD:9B:DB:0F:81:06:EF:B1:AA:97:BA:3A:09:DF:3F
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=recvonly
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:3807177b46fab8dd7d0a67e73913be82
+a=ice-ufrag:fe757f57
+a=mid:sdparta_0
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+m=video 9 RTP/SAVPF 120 126 97
+c=IN IP4 0.0.0.0
+a=recvonly
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:3807177b46fab8dd7d0a67e73913be82
+a=ice-ufrag:fe757f57
+a=mid:sdparta_1
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+
+2016-04-12 12:04:50,154  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:50,154  - DEBUG: WebRtcConnection - Video 1 videossrc 0 Audio 1 audio ssrc 0 Bundle 1
+2016-04-12 12:04:50,154  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 3262379614
+2016-04-12 12:04:50,154  - DEBUG: WebRtcConnection - Creating videoTransport with creds fe757f57, 3807177b46fab8dd7d0a67e73913be82
+2016-04-12 12:04:50,154  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:50,154  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:50,154  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:50,154  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:50,154  - DEBUG: NiceConnection - Setting remote credentials fe757f57, 3807177b46fab8dd7d0a67e73913be82
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - Gathering candidates 0x1b2edb0
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,163  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 58073 typ host generation 0
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,163  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 60198 typ host generation 0
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:50,163  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:50,164  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:50,164  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:50,164  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x1b2edb0
+2016-04-12 12:04:50,164  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:50,164  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:50,164  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:50,164  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:50,164  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials wM83, BPz00iD4w57pfT8dMwxu86
+2016-04-12 12:04:50.164  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS fRqpoV7vuc
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 58073 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60198 typ host generation 0
+a=ice-ufrag:wM83
+a=ice-pwd:BPz00iD4w57pfT8dMwxu86
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:1193212395 cname:o/i14u9pJrxRKAsu
+a=ssrc:1193212395 msid:fRqpoV7vuc a0
+a=ssrc:1193212395 mslabel:fRqpoV7vuc
+a=ssrc:1193212395 label:fRqpoV7vuca0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 58073 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60198 typ host generation 0
+a=ice-ufrag:wM83
+a=ice-pwd:BPz00iD4w57pfT8dMwxu86
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:3262379614 cname:o/i14u9pJrxRKAsu
+a=ssrc:3262379614 msid:fRqpoV7vuc v0
+a=ssrc:3262379614 mslabel:fRqpoV7vuc
+a=ssrc:3262379614 label:fRqpoV7vucv0
+ id pub 678995816502720100 id_sub bgzZIjtU2pkEFIELwlbg
+2016-04-12 12:04:50.164  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS fRqpoV7vuc
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 58073 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60198 typ host generation 0
+a=ice-ufrag:wM83
+a=ice-pwd:BPz00iD4w57pfT8dMwxu86
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:1193212395 cname:o/i14u9pJrxRKAsu
+a=ssrc:1193212395 msid:fRqpoV7vuc a0
+a=ssrc:1193212395 mslabel:fRqpoV7vuc
+a=ssrc:1193212395 label:fRqpoV7vuca0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 58073 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 60198 typ host generation 0
+a=ice-ufrag:wM83
+a=ice-pwd:BPz00iD4w57pfT8dMwxu86
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:3262379614 cname:o/i14u9pJrxRKAsu
+a=ssrc:3262379614 msid:fRqpoV7vuc v0
+a=ssrc:3262379614 mslabel:fRqpoV7vuc
+a=ssrc:3262379614 label:fRqpoV7vucv0
+
+2016-04-12 12:04:50.946  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'offer',
+  sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-39.0 4737465619612056517 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 98:3C:91:80:38:CF:AE:41:49:B6:7C:36:BD:81:1A:53:9F:04:06:81:B5:2E:6B:32:33:91:C1:27:1A:A7:CF:D5\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 109 9 0 8\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:f9a1f82e62221d180bf48e67d9284797\r\na=ice-ufrag:7eef882f\r\na=mid:sdparta_0\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=setup:actpass\r\nm=video 9 RTP/SAVPF 120 126 97\r\nc=IN IP4 0.0.0.0\r\na=recvonly\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=ice-pwd:f9a1f82e62221d180bf48e67d9284797\r\na=ice-ufrag:7eef882f\r\na=mid:sdparta_1\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\n' }
+2016-04-12 12:04:50,946  - DEBUG: WebRtcConnection - Set Remote SDP v=0
+o=mozilla...THIS_IS_SDPARTA-39.0 4737465619612056517 0 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=fingerprint:sha-256 98:3C:91:80:38:CF:AE:41:49:B6:7C:36:BD:81:1A:53:9F:04:06:81:B5:2E:6B:32:33:91:C1:27:1A:A7:CF:D5
+a=group:BUNDLE sdparta_0 sdparta_1
+a=ice-options:trickle
+a=msid-semantic:WMS *
+m=audio 9 RTP/SAVPF 109 9 0 8
+c=IN IP4 0.0.0.0
+a=recvonly
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=ice-pwd:f9a1f82e62221d180bf48e67d9284797
+a=ice-ufrag:7eef882f
+a=mid:sdparta_0
+a=rtcp-mux
+a=rtpmap:109 opus/48000/2
+a=rtpmap:9 G722/8000/1
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=setup:actpass
+m=video 9 RTP/SAVPF 120 126 97
+c=IN IP4 0.0.0.0
+a=recvonly
+a=fmtp:120 max-fs=12288;max-fr=60
+a=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1
+a=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=ice-pwd:f9a1f82e62221d180bf48e67d9284797
+a=ice-ufrag:7eef882f
+a=mid:sdparta_1
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:126 nack
+a=rtcp-fb:126 nack pli
+a=rtcp-fb:126 ccm fir
+a=rtcp-fb:97 nack
+a=rtcp-fb:97 nack pli
+a=rtcp-fb:97 ccm fir
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtpmap:126 H264/90000
+a=rtpmap:97 H264/90000
+a=setup:actpass
+
+2016-04-12 12:04:50,947  - DEBUG: WebRtcConnection - Is bundle? 1
+2016-04-12 12:04:50,947  - DEBUG: WebRtcConnection - Video 1 videossrc 0 Audio 1 audio ssrc 0 Bundle 1
+2016-04-12 12:04:50,947  - DEBUG: WebRtcConnection - Setting SSRC to localSdp 3262379614
+2016-04-12 12:04:50,947  - DEBUG: WebRtcConnection - Creating videoTransport with creds 7eef882f, f9a1f82e62221d180bf48e67d9284797
+2016-04-12 12:04:50,947  - DEBUG: DtlsTransport - Initializing DtlsTransport
+2016-04-12 12:04:50,948  - DEBUG: NiceConnection - Creating Agent
+2016-04-12 12:04:50,948  - DEBUG: NiceConnection - Adding Stream... Number of components 1
+2016-04-12 12:04:50,949  - DEBUG: NiceConnection - Setting remote credentials in constructor
+2016-04-12 12:04:50,949  - DEBUG: NiceConnection - Setting remote credentials 7eef882f, f9a1f82e62221d180bf48e67d9284797
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - Gathering candidates 0x17d8960
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - List length 4, candsDelivered 0
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - getCandidate 4
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,957  - DEBUG: WebRtcConnection - On Candidate a=candidate:3 1 udp 2013266431 172.17.0.2 60347 typ host generation 0
+2016-04-12 12:04:50,957  - DEBUG: NiceConnection - Candidate
+2016-04-12 12:04:50,958  - DEBUG: WebRtcConnection - On Candidate a=candidate:4 1 udp 2013266431 138.4.7.65 40777 typ host generation 0
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - List length 4, candsDelivered 4
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - getCandidate 0
+2016-04-12 12:04:50,958  - DEBUG: NiceConnection - Gathering done for stream 1
+2016-04-12 12:04:50,958  - INFO: NiceConnection - video - NICE State Changing from 0 to 1 0x17d8960
+2016-04-12 12:04:50,958  - DEBUG: DtlsTransport - video - New NICE state state: 1 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:50,958  - INFO: WebRtcConnection - Update Transport State video to 2
+2016-04-12 12:04:50,958  - DEBUG: WebRtcConnection - Getting SDP
+2016-04-12 12:04:50,958  - DEBUG: DtlsTransport - Processing Local SDP in DTLS Transport
+2016-04-12 12:04:50,958  - DEBUG: DtlsTransport - Processed Local SDP in DTLS Transport with credentials aK9D, GPqI7ozAEDh/yUAPi819GF
+2016-04-12 12:04:50.958  - INFO: ErizoJSController - webrtc Addon status  103 v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS guYcocOXbh
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 60347 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 40777 typ host generation 0
+a=ice-ufrag:aK9D
+a=ice-pwd:GPqI7ozAEDh/yUAPi819GF
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:1193212395 cname:o/i14u9pJrxRKAsu
+a=ssrc:1193212395 msid:guYcocOXbh a0
+a=ssrc:1193212395 mslabel:guYcocOXbh
+a=ssrc:1193212395 label:guYcocOXbha0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 60347 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 40777 typ host generation 0
+a=ice-ufrag:aK9D
+a=ice-pwd:GPqI7ozAEDh/yUAPi819GF
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:3262379614 cname:o/i14u9pJrxRKAsu
+a=ssrc:3262379614 msid:guYcocOXbh v0
+a=ssrc:3262379614 mslabel:guYcocOXbh
+a=ssrc:3262379614 label:guYcocOXbhv0
+ id pub 678995816502720100 id_sub Vlt8PaSrxbou-K_Swlbh
+2016-04-12 12:04:50.959  - DEBUG: ErizoJSController - Sending SDP v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=LicodeMCU
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS guYcocOXbh
+m=audio 1 RTP/SAVPF 0
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 60347 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 40777 typ host generation 0
+a=ice-ufrag:aK9D
+a=ice-pwd:GPqI7ozAEDh/yUAPi819GF
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=rtcp-mux
+a=rtpmap:0 PCMU/8000
+a=maxptime:60
+a=ssrc:1193212395 cname:o/i14u9pJrxRKAsu
+a=ssrc:1193212395 msid:guYcocOXbh a0
+a=ssrc:1193212395 mslabel:guYcocOXbh
+a=ssrc:1193212395 label:guYcocOXbha0
+m=video 1 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtcp:1 IN IP4 0.0.0.0
+a=candidate:3 1 udp 2013266431 172.17.0.2 60347 typ host generation 0
+a=candidate:4 1 udp 2013266431 138.4.7.65 40777 typ host generation 0
+a=ice-ufrag:aK9D
+a=ice-pwd:GPqI7ozAEDh/yUAPi819GF
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=fingerprint:sha-256 84:60:6A:39:33:21:2D:1E:B8:98:41:7B:89:94:A2:1E:AE:78:9D:57:9A:7A:E0:4C:EF:F5:69:95:18:83:7F:AD
+a=sendonly
+a=mid:sdparta_1
+a=rtcp-mux
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 ccm fir
+a=ssrc:3262379614 cname:o/i14u9pJrxRKAsu
+a=ssrc:3262379614 msid:guYcocOXbh v0
+a=ssrc:3262379614 mslabel:guYcocOXbh
+a=ssrc:3262379614 label:guYcocOXbhv0
+
+2016-04-12 12:04:52.889  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 46929 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,889  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 46929 typ host, mid , sdpMLine 0
+2016-04-12 12:04:52,889  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,889  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52,889  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 46929 priority 2122252543 componentId 1, username fe757f57, pass 3807177b46fab8dd7d0a67e73913be82
+2016-04-12 12:04:52,891  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:52,891  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x1b2edb0
+2016-04-12 12:04:52,891  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:52,891  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:52,892  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:52,892  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:52,895  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:52.899  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 45401 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,900  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 45401 typ host, mid , sdpMLine 0
+2016-04-12 12:04:52,900  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,900  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52,900  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 45401 priority 2122187007 componentId 1, username fe757f57, pass 3807177b46fab8dd7d0a67e73913be82
+2016-04-12 12:04:52.905  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 51616 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,907  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 51616 typ host, mid , sdpMLine 0
+2016-04-12 12:04:52,907  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,907  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52,908  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:52.908  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 39052 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,909  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 39052 typ host, mid , sdpMLine 0
+2016-04-12 12:04:52,909  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,909  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52.909  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 45401 typ srflx raddr 172.17.0.2 rport 45401',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,910  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 45401 typ srflx raddr 172.17.0.2 rport 45401, mid , sdpMLine 0
+2016-04-12 12:04:52,910  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,910  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52,910  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 45401 raddr 172.17.0.2 rport 45401
+2016-04-12 12:04:52,922  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:52,923  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:52,923  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:52,923  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:52,923  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:52.923  - INFO: ErizoJSController - webrtc Addon status  104  id pub 678995816502720100 id_sub bgzZIjtU2pkEFIELwlbg
+2016-04-12 12:04:52.928  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 bgzZIjtU2pkEFIELwlbg { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 39052 typ srflx raddr 172.17.0.2 rport 39052',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,929  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 39052 typ srflx raddr 172.17.0.2 rport 39052, mid , sdpMLine 0
+2016-04-12 12:04:52,929  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,929  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52.937  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 1 UDP 2122252543 138.4.7.65 58471 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,938  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 1 UDP 2122252543 138.4.7.65 58471 typ host, mid , sdpMLine 0
+2016-04-12 12:04:52,938  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,939  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52,939  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 138.4.7.65 port 58471 priority 2122252543 componentId 1, username 7eef882f, pass f9a1f82e62221d180bf48e67d9284797
+2016-04-12 12:04:52.941  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 1 UDP 2122187007 172.17.0.2 40567 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:52,941  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 1 UDP 2122187007 172.17.0.2 40567 typ host, mid , sdpMLine 0
+2016-04-12 12:04:52,941  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:52,941  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:52,941  - DEBUG: NiceConnection - Adding remote candidate type 0 addr 172.17.0.2 port 40567 priority 2122187007 componentId 1, username 7eef882f, pass f9a1f82e62221d180bf48e67d9284797
+2016-04-12 12:04:52,952  - DEBUG: NiceConnection - video - NICE Component State Changed 1 - 2, total comps 1
+2016-04-12 12:04:52,952  - INFO: NiceConnection - video - NICE State Changing from 1 to 2 0x17d8960
+2016-04-12 12:04:52,952  - DEBUG: DtlsTransport - video - New NICE state state: 2 - Media: 0 - is Bundle: 1
+2016-04-12 12:04:52,952  - INFO: DtlsTransport - video - Nice ready
+2016-04-12 12:04:52,952  - INFO: DtlsTransport - video - DTLSRTP Start
+2016-04-12 12:04:52,952  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:53,031  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:53.033  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:0 2 UDP 2122252542 138.4.7.65 39075 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:53,033  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:0 2 UDP 2122252542 138.4.7.65 39075 typ host, mid , sdpMLine 0
+2016-04-12 12:04:53,034  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:53,034  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:53.036  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:2 2 UDP 2122187006 172.17.0.2 60220 typ host',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:53,036  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:2 2 UDP 2122187006 172.17.0.2 60220 typ host, mid , sdpMLine 0
+2016-04-12 12:04:53,036  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:53,036  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:53,037  - DEBUG: DtlsTransport - video - Sending DTLS message to 1
+2016-04-12 12:04:53,077  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:04:53,077  - DEBUG: DtlsTransport - video - Setting RTP srtp params, is Server? 0
+2016-04-12 12:04:53,078  - DEBUG: DtlsTransport - video - Ready? 1 1
+2016-04-12 12:04:53,078  - DEBUG: DtlsTransport - video - Ready!!!
+2016-04-12 12:04:53,078  - INFO: WebRtcConnection - Update Transport State video to 3
+2016-04-12 12:04:53.078  - INFO: ErizoJSController - webrtc Addon status  104  id pub 678995816502720100 id_sub Vlt8PaSrxbou-K_Swlbh
+2016-04-12 12:04:53.098  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 2 UDP 1686044670 138.4.7.65 60220 typ srflx raddr 172.17.0.2 rport 60220',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:53,098  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 2 UDP 1686044670 138.4.7.65 60220 typ srflx raddr 172.17.0.2 rport 60220, mid , sdpMLine 0
+2016-04-12 12:04:53,099  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:53,099  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:53.102  - INFO: ErizoJSController - Process Signaling message:  678995816502720100 Vlt8PaSrxbou-K_Swlbh { type: 'candidate',
+  candidate: 
+   { candidate: 'a=candidate:3 1 UDP 1686044671 138.4.7.65 40567 typ srflx raddr 172.17.0.2 rport 40567',
+     sdpMid: '',
+     sdpMLineIndex: 0 } }
+2016-04-12 12:04:53,102  - DEBUG: WebRtcConnection - Adding remote Candidate a=candidate:3 1 UDP 1686044671 138.4.7.65 40567 typ srflx raddr 172.17.0.2 rport 40567, mid , sdpMLine 0
+2016-04-12 12:04:53,102  - DEBUG: WebRtcConnection - Setting VIDEO CANDIDATE
+2016-04-12 12:04:53,102  - DEBUG: NiceConnection - Setting remote candidates 1, mediatype 0
+2016-04-12 12:04:53,102  - DEBUG: NiceConnection - Adding remote candidate type 1 addr 138.4.7.65 port 40567 raddr 172.17.0.2 rport 40567
+2016-04-12 12:29:59.288  - INFO: ErizoJSController - Removing muxer 678995816502720100
+2016-04-12 12:29:59.375  - INFO: ErizoJSController - Iterating and closing  bgzZIjtU2pkEFIELwlbg { bgzZIjtU2pkEFIELwlbg: { minVideoBW: 0, bwValues: [], bwStatus: 0 },
+  'Vlt8PaSrxbou-K_Swlbh': { minVideoBW: 0, bwValues: [], bwStatus: 0 } } { minVideoBW: 0, bwValues: [], bwStatus: 0 }
+2016-04-12 12:29:59.532  - INFO: ErizoJSController - Iterating and closing  Vlt8PaSrxbou-K_Swlbh { bgzZIjtU2pkEFIELwlbg: { minVideoBW: 0, bwValues: [], bwStatus: 0 },
+  'Vlt8PaSrxbou-K_Swlbh': { minVideoBW: 0, bwValues: [], bwStatus: 0 } } { minVideoBW: 0, bwValues: [], bwStatus: 0 }
+2016-04-12 12:30:00,215  - DEBUG: OneToManyProcessor - OneToManyProcessor destructor
+2016-04-12 12:30:00,215  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:30:00,293  - DEBUG: OneToManyProcessor - OneToManyProcessor closeAll
+2016-04-12 12:30:00,562  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:00,712  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:00,712  - DEBUG: NiceConnection - Closing nice  0x1ac9cc0
+2016-04-12 12:30:00,712  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x1ac9cc0
+2016-04-12 12:30:00,712  - DEBUG: NiceConnection - m_thread join 0x1ac9cc0
+2016-04-12 12:30:00,736  - DEBUG: NiceConnection - LibNice thread finished 0x1ac9cc0
+2016-04-12 12:30:00,804  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:30:01,316  - DEBUG: NiceConnection - Nice Closed 0x1ac9cc0
+2016-04-12 12:30:01,316  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:01,316  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:01,500  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:01,500  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:01,664  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:01,664  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:01,664  - DEBUG: NiceConnection - Closing nice  0x17d8960
+2016-04-12 12:30:01,665  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x17d8960
+2016-04-12 12:30:01,665  - DEBUG: NiceConnection - m_thread join 0x17d8960
+2016-04-12 12:30:01,669  - DEBUG: NiceConnection - LibNice thread finished 0x17d8960
+2016-04-12 12:30:01,670  - DEBUG: NiceConnection - Nice Closed 0x17d8960
+2016-04-12 12:30:01,670  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:01,770  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:01,770  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:01,770  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:01,770  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:01,770  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:01,770  - DEBUG: NiceConnection - Closing nice  0x1b2edb0
+2016-04-12 12:30:01,770  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x1b2edb0
+2016-04-12 12:30:01,770  - DEBUG: NiceConnection - m_thread join 0x1b2edb0
+2016-04-12 12:30:01,870  - DEBUG: NiceConnection - LibNice thread finished 0x1b2edb0
+2016-04-12 12:30:01,870  - DEBUG: NiceConnection - Nice Closed 0x1b2edb0
+2016-04-12 12:30:01,870  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:02,070  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:02,070  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:02,070  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:02,070  - DEBUG: OneToManyProcessor - ClosedAll media in this OneToMany
+2016-04-12 12:30:02.070  - INFO: ErizoJSController - Removing subscribers 678995816502720100
+2016-04-12 12:30:02.071  - INFO: ErizoJSController - Removing publisher 678995816502720100
+2016-04-12 12:30:02.071  - INFO: ErizoJSController - Publishers:  2
+2016-04-12 12:30:05.194  - INFO: ErizoJSController - Removing muxer 891877474030479700
+2016-04-12 12:30:05.195  - INFO: ErizoJSController - Iterating and closing  bgzZIjtU2pkEFIELwlbg { bgzZIjtU2pkEFIELwlbg: { minVideoBW: 0, bwValues: [], bwStatus: 0 },
+  Yw0f2J36e8oDHUvswlbi: { minVideoBW: 0, bwValues: [], bwStatus: 0 } } { minVideoBW: 0, bwValues: [], bwStatus: 0 }
+2016-04-12 12:30:05.196  - INFO: ErizoJSController - Iterating and closing  Yw0f2J36e8oDHUvswlbi { bgzZIjtU2pkEFIELwlbg: { minVideoBW: 0, bwValues: [], bwStatus: 0 },
+  Yw0f2J36e8oDHUvswlbi: { minVideoBW: 0, bwValues: [], bwStatus: 0 } } { minVideoBW: 0, bwValues: [], bwStatus: 0 }
+2016-04-12 12:30:05,202  - DEBUG: OneToManyProcessor - OneToManyProcessor destructor
+2016-04-12 12:30:05,202  - DEBUG: OneToManyProcessor - OneToManyProcessor closeAll
+2016-04-12 12:30:05,202  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:05,202  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:05,202  - DEBUG: NiceConnection - Closing nice  0x19a1d00
+2016-04-12 12:30:05,202  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x19a1d00
+2016-04-12 12:30:05,202  - DEBUG: NiceConnection - m_thread join 0x19a1d00
+2016-04-12 12:30:05,212  - DEBUG: NiceConnection - LibNice thread finished 0x19a1d00
+2016-04-12 12:30:05,222  - DEBUG: NiceConnection - Nice Closed 0x19a1d00
+2016-04-12 12:30:05,222  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:05,267  - DEBUG: DtlsTransport - video - Received DTLS message from 1
+2016-04-12 12:30:05,489  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:05,489  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:05,489  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:05,489  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:05,489  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:05,489  - DEBUG: NiceConnection - Closing nice  0x1586450
+2016-04-12 12:30:05,489  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x1586450
+2016-04-12 12:30:05,489  - DEBUG: NiceConnection - m_thread join 0x1586450
+2016-04-12 12:30:05,610  - DEBUG: NiceConnection - LibNice thread finished 0x1586450
+2016-04-12 12:30:05,610  - DEBUG: NiceConnection - Nice Closed 0x1586450
+2016-04-12 12:30:05,610  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:05,610  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:05,610  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:05,610  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:05,610  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:05,610  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:05,610  - DEBUG: NiceConnection - Closing nice  0x1a27070
+2016-04-12 12:30:05,610  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x1a27070
+2016-04-12 12:30:05,610  - DEBUG: NiceConnection - m_thread join 0x1a27070
+2016-04-12 12:30:05,692  - DEBUG: NiceConnection - LibNice thread finished 0x1a27070
+2016-04-12 12:30:05,692  - DEBUG: NiceConnection - Nice Closed 0x1a27070
+2016-04-12 12:30:05,692  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:05,793  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:05,793  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:05,793  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:05,793  - DEBUG: OneToManyProcessor - ClosedAll media in this OneToMany
+2016-04-12 12:30:05.793  - INFO: ErizoJSController - Removing subscribers 891877474030479700
+2016-04-12 12:30:05.793  - INFO: ErizoJSController - Removing publisher 891877474030479700
+2016-04-12 12:30:05.793  - INFO: ErizoJSController - Publishers:  1
+2016-04-12 12:30:07.431  - INFO: ErizoJSController - Removing muxer 40491246618330480
+2016-04-12 12:30:07.431  - INFO: ErizoJSController - Iterating and closing  Vlt8PaSrxbou-K_Swlbh { 'Vlt8PaSrxbou-K_Swlbh': { minVideoBW: 0, bwValues: [], bwStatus: 0 },
+  Yw0f2J36e8oDHUvswlbi: { minVideoBW: 0, bwValues: [], bwStatus: 0 } } { minVideoBW: 0, bwValues: [], bwStatus: 0 }
+2016-04-12 12:30:07.431  - INFO: ErizoJSController - Iterating and closing  Yw0f2J36e8oDHUvswlbi { 'Vlt8PaSrxbou-K_Swlbh': { minVideoBW: 0, bwValues: [], bwStatus: 0 },
+  Yw0f2J36e8oDHUvswlbi: { minVideoBW: 0, bwValues: [], bwStatus: 0 } } { minVideoBW: 0, bwValues: [], bwStatus: 0 }
+2016-04-12 12:30:07,431  - DEBUG: OneToManyProcessor - OneToManyProcessor destructor
+2016-04-12 12:30:07,431  - DEBUG: OneToManyProcessor - OneToManyProcessor closeAll
+2016-04-12 12:30:07,431  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:07,432  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:07,432  - DEBUG: NiceConnection - Closing nice  0x15b86c0
+2016-04-12 12:30:07,432  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x15b86c0
+2016-04-12 12:30:07,432  - DEBUG: NiceConnection - m_thread join 0x15b86c0
+2016-04-12 12:30:07,501  - DEBUG: NiceConnection - LibNice thread finished 0x15b86c0
+2016-04-12 12:30:07,501  - DEBUG: NiceConnection - Nice Closed 0x15b86c0
+2016-04-12 12:30:07,501  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:07,701  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:07,701  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:07,701  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:07,702  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:07,702  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:07,702  - DEBUG: NiceConnection - Closing nice  0x19652b0
+2016-04-12 12:30:07,702  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x19652b0
+2016-04-12 12:30:07,702  - DEBUG: NiceConnection - m_thread join 0x19652b0
+2016-04-12 12:30:07,870  - DEBUG: NiceConnection - LibNice thread finished 0x19652b0
+2016-04-12 12:30:07,870  - DEBUG: NiceConnection - Nice Closed 0x19652b0
+2016-04-12 12:30:07,870  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:07,969  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:07,969  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:07,969  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:07,969  - INFO: WebRtcConnection - WebRtcConnection Destructor
+2016-04-12 12:30:07,969  - DEBUG: DtlsTransport - DtlsTransport destructor
+2016-04-12 12:30:07,969  - DEBUG: NiceConnection - Closing nice  0x1a1a290
+2016-04-12 12:30:07,969  - INFO: NiceConnection - video - NICE State Changing from 2 to 3 0x1a1a290
+2016-04-12 12:30:07,969  - DEBUG: NiceConnection - m_thread join 0x1a1a290
+2016-04-12 12:30:08,110  - DEBUG: NiceConnection - LibNice thread finished 0x1a1a290
+2016-04-12 12:30:08,111  - DEBUG: NiceConnection - Nice Closed 0x1a1a290
+2016-04-12 12:30:08,111  - DEBUG: DtlsTransport - Join thread getNice
+2016-04-12 12:30:08,153  - DEBUG: DtlsTransport - DTLSTransport destructor END
+2016-04-12 12:30:08,154  - DEBUG: NiceConnection - NiceConnection Destructor
+2016-04-12 12:30:08,154  - DEBUG: NiceConnection - NiceConnection Destructor END
+2016-04-12 12:30:08,154  - DEBUG: OneToManyProcessor - ClosedAll media in this OneToMany
+2016-04-12 12:30:08.154  - INFO: ErizoJSController - Removing subscribers 40491246618330480
+2016-04-12 12:30:08.154  - INFO: ErizoJSController - Removing publisher 40491246618330480
+2016-04-12 12:30:08.154  - INFO: ErizoJSController - Publishers:  0
+2016-04-12 12:30:08.154  - INFO: ErizoJSController - Removed all publishers. Killing process.

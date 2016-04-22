@@ -1,0 +1,20 @@
+2016-04-22 12:37:11.287  - INFO: AMQPER - Exchange rpcExchange is open
+2016-04-22 12:37:11.289  - INFO: AMQPER - Exchange broadcastExchange is open
+2016-04-22 12:37:11.291  - INFO: AMQPER - ClientQueue amq.gen-FLYlDgeQiF_-75chAqMB8g is open
+2016-04-22 12:37:11.293  - INFO: ErizoJS - ID: ErizoJS_3f5fadfc-afb6-0c05-21e3-abaf6d51201e
+2016-04-22 12:37:11.295  - INFO: AMQPER - Queue ErizoJS_3f5fadfc-afb6-0c05-21e3-abaf6d51201e is open
+2016-04-22 12:37:11.296  - INFO: ErizoJS - ErizoJS started
+Unhandled connection error: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2016-04-22 13:06:08.285  - ERROR: AMQPER - Connection error... { [Error: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'] code: 320 }
+Error: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+    at Connection._onMethod (/home/aurora/startchat/licode/node_modules/amqp/lib/connection.js:508:15)
+    at AMQPParser.self.parser.onMethod (/home/aurora/startchat/licode/node_modules/amqp/lib/connection.js:136:12)
+    at AMQPParser._parseMethodFrame (/home/aurora/startchat/licode/node_modules/amqp/lib/parser.js:363:10)
+    at frameEnd (/home/aurora/startchat/licode/node_modules/amqp/lib/parser.js:93:16)
+    at frame (/home/aurora/startchat/licode/node_modules/amqp/lib/parser.js:78:14)
+    at AMQPParser.header [as parse] (/home/aurora/startchat/licode/node_modules/amqp/lib/parser.js:64:14)
+    at AMQPParser.execute (/home/aurora/startchat/licode/node_modules/amqp/lib/parser.js:137:21)
+    at Connection.<anonymous> (/home/aurora/startchat/licode/node_modules/amqp/lib/connection.js:174:21)
+    at Connection.emit (events.js:95:17)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)  killing process.

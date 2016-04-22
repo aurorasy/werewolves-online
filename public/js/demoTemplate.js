@@ -137,7 +137,7 @@ var user_no=1;
             chat_body.appendChild(section); 
             chat_body.scrollTop = chat_body.scrollHeight; 
             //this.scrollToBottom();
-            name=user_no+'&nbsp;'+name;
+            name=user_no+'.'+name;
             user_no=user_no+1;
             add_user_to_list(name, id);
             $('#test'+id+'_name').html('name:'+name);
@@ -154,6 +154,7 @@ var user_no=1;
             html += name;
             html += ' lefted the room';
             html += '</div>';
+            user_no=user_no-1;
             var section = document.createElement('section');
             section.className = 'system J-mjrlinkWrap J-cutMsg';
             section.innerHTML = html;
@@ -362,7 +363,7 @@ chat_body.scrollTop = chat_body.scrollHeight;
                 }
                 document.getElementById("showusername").innerHTML = my_name;
       setTimeout(function () {
-            my_name=user_no+'&nbsp;'+my_name;
+            my_name=user_no+'.'+my_name;
             user_no=user_no+1;
             add_user_to_list(my_name,'me');
                 document.getElementById('localVideo_name').innerHTML = 'name:'+my_name;
@@ -411,7 +412,7 @@ chat_body.scrollTop = chat_body.scrollHeight;
         {
             if(arr2[i])
             {
-              printtext("Killer:"+arr2[i]);
+              printText("Killer:"+arr2[i]);
             }}
        play_round = 1;
        var get_span7=getByClass("span7");
@@ -439,7 +440,7 @@ chat_body.scrollTop = chat_body.scrollHeight;
         {
             if(arr2[i])
             {
-              printtext("Killer:"+arr2[i]);
+              printText("Killer:"+arr2[i]);
         }}
        play_round = 1;
        var get_span7=getByClass("span7");
