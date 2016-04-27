@@ -1,0 +1,104 @@
+@section Format AVOptions
+@table @option
+@item -probesize @var{integer} (@emph{input})
+set probing size
+@item -packetsize @var{integer} (@emph{output})
+set packet size
+@item -fflags @var{flags} (@emph{input/output})
+
+Possible values:
+@table @samp
+@item flush_packets
+reduce the latency by flushing out packets immediately
+@item ignidx
+ignore index
+@item genpts
+generate pts
+@item nofillin
+do not fill in missing values that can be exactly calculated
+@item noparse
+disable AVParsers, this needs nofillin too
+@item igndts
+ignore dts
+@item discardcorrupt
+discard corrupted frames
+@item nobuffer
+reduce the latency introduced by optional buffering
+@item bitexact
+do not write random/volatile data
+@end table
+@item -analyzeduration @var{integer} (@emph{input})
+how many microseconds are analyzed to estimate duration
+@item -cryptokey @var{hexadecimal string} (@emph{input})
+decryption key
+@item -indexmem @var{integer} (@emph{input})
+max memory used for timestamp index (per stream)
+@item -rtbufsize @var{integer} (@emph{input})
+max memory used for buffering real-time frames
+@item -fdebug @var{flags} (@emph{input/output})
+print specific debug info
+
+Possible values:
+@table @samp
+@item ts
+
+@end table
+@item -max_delay @var{integer} (@emph{input/output})
+maximum muxing or demuxing delay in microseconds
+@item -fpsprobesize @var{integer} (@emph{input})
+number of frames used to probe fps
+@item -f_err_detect @var{flags} (@emph{input})
+set error detection flags (deprecated; use err_detect, save via avconv)
+
+Possible values:
+@table @samp
+@item crccheck
+verify embedded CRCs
+@item bitstream
+detect bitstream specification deviations
+@item buffer
+detect improper bitstream length
+@item explode
+abort decoding on minor error detection
+@end table
+@item -err_detect @var{flags} (@emph{input})
+set error detection flags
+
+Possible values:
+@table @samp
+@item crccheck
+verify embedded CRCs
+@item bitstream
+detect bitstream specification deviations
+@item buffer
+detect improper bitstream length
+@item explode
+abort decoding on minor error detection
+@end table
+@item -max_interleave_delta @var{integer} (@emph{output})
+maximum buffering duration for interleaving
+@item -f_strict @var{integer} (@emph{input/output})
+how strictly to follow the standards (deprecated; use strict, save via avconv)
+
+Possible values:
+@table @samp
+@item strict
+strictly conform to all the things in the spec no matter what the consequences
+@item normal
+
+@item experimental
+allow non-standardized experimental variants
+@end table
+@item -strict @var{integer} (@emph{input/output})
+how strictly to follow the standards
+
+Possible values:
+@table @samp
+@item strict
+strictly conform to all the things in the spec no matter what the consequences
+@item normal
+
+@item experimental
+allow non-standardized experimental variants
+@end table
+@end table

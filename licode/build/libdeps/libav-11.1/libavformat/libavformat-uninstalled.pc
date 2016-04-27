@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=.
+
+Name: libavformat
+Description: Libav container format library
+Version: 56.1.0
+Requires: libavcodec >= 56.1.0, libavresample >= 2.1.0, libavutil >= 54.3.0
+Conflicts:
+Libs: ${libdir}/libavformat.a -lvpx -lvpx -lvpx -lvpx -L/home/aurora/licode/scripts/./../build/libdeps/build/lib -lopus -lm -lz -pthread 
+Cflags: -I${includedir}
