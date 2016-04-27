@@ -1,1 +1,1 @@
-web:./licode/scripts/initLicode.sh
+web:sh ./licode/scripts/initLicode.sh
