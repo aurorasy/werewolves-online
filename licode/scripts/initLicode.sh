@@ -1,6 +1,4 @@
 #!/bin/bash
-./licode/scripts/installErizo.sh
-./licode/scripts/installNuve.sh
 SCRIPT=`pwd`/$0
 FILENAME=`basename $SCRIPT`
 PATHNAME=`dirname $SCRIPT`
@@ -11,10 +9,6 @@ EXTRAS=$ROOT/extras
 
 export PATH=$PATH:/usr/local/sbin
 
-if ! pgrep -f rabbitmq; then
-  sudo echo
-  sudo rabbitmq-server > $BUILD_DIR/rabbit.log &
-fi
 
 cd $ROOT/nuve
 ./initNuve.sh
