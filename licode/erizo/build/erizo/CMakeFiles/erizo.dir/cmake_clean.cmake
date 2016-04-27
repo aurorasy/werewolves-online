@@ -1,0 +1,41 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/erizo.dir/dtls/bf_dwrap.c.o"
+  "CMakeFiles/erizo.dir/OneToManyProcessor.cpp.o"
+  "CMakeFiles/erizo.dir/DtlsTransport.cpp.o"
+  "CMakeFiles/erizo.dir/dtls/DtlsSocket.cpp.o"
+  "CMakeFiles/erizo.dir/dtls/DtlsTimer.cpp.o"
+  "CMakeFiles/erizo.dir/dtls/DtlsClient.cpp.o"
+  "CMakeFiles/erizo.dir/dtls/DtlsFactory.cpp.o"
+  "CMakeFiles/erizo.dir/dtls/OpenSSLInit.cpp.o"
+  "CMakeFiles/erizo.dir/Stats.cpp.o"
+  "CMakeFiles/erizo.dir/WebRtcConnection.cpp.o"
+  "CMakeFiles/erizo.dir/SdpInfo.cpp.o"
+  "CMakeFiles/erizo.dir/media/ExternalOutput.cpp.o"
+  "CMakeFiles/erizo.dir/media/mixers/VideoUtils.cpp.o"
+  "CMakeFiles/erizo.dir/media/mixers/VideoMixer.cpp.o"
+  "CMakeFiles/erizo.dir/media/OneToManyTranscoder.cpp.o"
+  "CMakeFiles/erizo.dir/media/codecs/VideoCodec.cpp.o"
+  "CMakeFiles/erizo.dir/media/codecs/AudioCodec.cpp.o"
+  "CMakeFiles/erizo.dir/media/ExternalInput.cpp.o"
+  "CMakeFiles/erizo.dir/media/MediaProcessor.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/RtcpProcessor.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/RtpPacketQueue.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/RtpSource.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/RtpSink.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/RtpVP8Fragmenter.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/RtpVP8Parser.cpp.o"
+  "CMakeFiles/erizo.dir/NiceConnection.cpp.o"
+  "CMakeFiles/erizo.dir/SrtpChannel.cpp.o"
+  "CMakeFiles/erizo.dir/StringUtil.cpp.o"
+  "CMakeFiles/erizo.dir/rtp/webrtc/forward_error_correction_internal.cc.o"
+  "CMakeFiles/erizo.dir/rtp/webrtc/rtp_utility.cc.o"
+  "CMakeFiles/erizo.dir/rtp/webrtc/forward_error_correction.cc.o"
+  "CMakeFiles/erizo.dir/rtp/webrtc/fec_receiver_impl.cc.o"
+  "liberizo.pdb"
+  "liberizo.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang C CXX)
+  INCLUDE(CMakeFiles/erizo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
