@@ -1,5 +1,7 @@
 #!/bin/bash
-
+./licode/scripts/installUbuntuDeps.sh
+./licode/scripts/installErizo.sh
+./licode/scripts/installNuve.sh
 SCRIPT=`pwd`/$0
 FILENAME=`basename $SCRIPT`
 PATHNAME=`dirname $SCRIPT`
