@@ -5,7 +5,7 @@ var config = {}
  It's used by Nuve, ErizoController, ErizoAgent and ErizoJS
 **********************************************************/
 config.rabbit = {};
-config.rabbit.host = 'localhost'; //default value: 'localhost'
+config.rabbit.host = 'http://weremnsy.herokuapp.com'; //default value: 'localhost'
 config.rabbit.port = 5672; //default value: 5672
 // Sets the AQMP heartbeat timeout to detect dead TCP Connections
 config.rabbit.heartbeat = 8; //default value: 8 seconds, 0 to disable
@@ -27,10 +27,10 @@ config.cloudProvider.secretAccessKey = '';
  NUVE CONFIGURATION
 **********************************************************/
 config.nuve = {};
-config.nuve.dataBaseURL = "localhost/nuvedb"; // default value: 'localhost/nuvedb'
+config.nuve.dataBaseURL = "http://weremnsy.herokuapp.com/nuvedb"; // default value: 'localhost/nuvedb'
 config.nuve.superserviceID = '56b886f27ef3d1788df1b558'; // default value: ''
 config.nuve.superserviceKey = '18712'; // default value: ''
-config.nuve.testErizoController = 'localhost:8080'; // default value: 'localhost:8080'
+config.nuve.testErizoController = 'http://weremnsy.herokuapp.com:8080'; // default value: 'localhost:8080'
 // Nuve Cloud Handler policies are in nuve/nuveAPI/ch_policies/ folder
 config.nuve.cloudHandlerPolicy = 'default_policy.js'; // default value: 'default_policy.js'
 
